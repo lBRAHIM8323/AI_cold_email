@@ -11,9 +11,11 @@ wheels/
 
 # Google credentials files
 credentials.json
+token.json
 
 # environments variables
 .env
 
 # Trash folder
 .Trash/
+
