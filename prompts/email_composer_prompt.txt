@@ -1,0 +1,111 @@
+Act as a career assistant specializing in personalized cold email outreach for AI/ML job applications.
+
+Input Data:
+
+My current resume.
+```
+Mohammad Ibrahim
+United Arab Emirates
+mohd.lbrahim8323@gmail.com | +971 563188995
+LinkedIn | Portfolio
+Professional Summary
+AI/ML Engineer with strong foundation in computer science and hands-on expertise in designing,
+training and deploying machine learning models. Skilled in Python and key frameworks (TensorFlow,
+PyTorch, scikit-learn), with proven experience building automation pipelines and robust MLOps workflows. Adept at leveraging Generative AI and NLP techniques—fine-tuning large language models,
+implementing RAG, and creating vision-language solutions—to solve real-world business challenges.
+Experienced collaborating with cross-functional teams, deploying scalable cloud-based solutions, and
+championing ethical AI and responsible development practices.
+Experience
+• AI/ML Engineer Nov 2024 – Present
+PharynxAI
+– Built Python automation pipelines for web scraping, asynchronous data collection, and storage
+to improve ML model inputs.
+– Fine-tuned LLMs (Qwen 3, Qwen 2.5, LLaMA 3.1) using LoRA + quantization on A100 GPUs;
+designed an end-to-end fine-tuning pipeline.
+– Implemented Retrieval-Augmented Generation (RAG) with metadata service layer for UID resolution and embedding retrieval.
+– Developed multimodal vision-language system to extract structured information from unstructured documents.
+– Built web dashboard to track client product visibility across AI platforms with ranking metrics
+and SEO insights.
+– Applied computer-vision models to analyze store-shelf layouts, mapping product placement and
+visibility zones.
+– Optimized GPU workloads, reducing fine-tuning memory usage to 8GB while scaling QA generation to 24GB.
+– Created AI-powered job-description generator and resume-to-job spec comparison tool for recruiters.
+– Collaborated with teams to design and evaluate metrics for ranking, vision, and generative AI
+tasks.
+
+# Organizations
+• Global Ambassador for UAE Chapter Feb 2025 – Present
+Global Council for Responsible AI
+– Promoting ethical practices in AI development and deployment through events and workshops on responsible AI.
+– Advocating for underrepresented communities in AI governance and ethical AI frameworks.
+– Collaborating with global policymakers and academia to balance innovation, security, and ethics in AI governance.
+– Developing AI-powered learning tools to strengthen cybersecurity education and resilience.
+
+• Global AI Delegate to the UAE May 2025 – Present
+Global Alliance for Artificial Intelligence
+– Representing the UAE in global AI initiatives and international AI policy discussions.
+– Representing GAFAI at UAE tech forums, policy discussions, and industry events.
+– Advancing responsible AI practices among UAE’s developer community and enterprises.
+– Fostering collaboration between UAE’s innovators and global AI leaders for scalable, ethical solutions.
+
+# Technical Skills
+• Programming Languages: Python (primary), Bash scripting, SQL
+• Machine Learning: PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers
+• NLP & Text Processing: NLTK, spaCy, LangChain, LlamaIndex, Text vectorization, Tokenization
+• Data Engineering: Pandas, NumPy, Web scraping (BeautifulSoup, Scrapy), PDF/document parsing
+• Development Tools: Docker, Git, CI/CD pipelines, Linux
+• AI Platforms: OpenAI, Gemini, LLaMA, Perplexity, Grok, Qwen, VLLM
+• Computer Vision: OpenCV, YOLO, Gemini Vision, Document OCR
+• Cloud & Deployment: AWS (S3, EC2), GCP (Vertex AI), Model serving APIs
+• Optimization: LoRA, Quantization (GGUF, AWQ), GPU memory optimization
+• Monitoring: Weights & Biases, MLflow, basic Prometheus/Grafana
+• Languages: English, Hindi, Urdu
+
+# Projects
+• AI-SEO/GEO
+• Cosmetic Ingredient Scanner
+• RASA NLU Bot
+• AI-Powered Retail Shelf Analytics
+• Job Description KPI Generator for Hiring Recruiters
+• AI-Powered Resume-Job Description Matching System
+• UAE Number Plate Price Prediction
+• Stock Price Prediction using LSTM
+
+# Education
+• B.Tech in Computer Science Graduated: 2025
+Jamia Hamdard, Delhi
+```
+
+Target company’s recent info: department, products/services, pain points, unique value proposition, mission, and target customer segments (input as structured JSON).
+
+List of best practices for cold emailing, including subject line guidance, tone/style, structure, and specific tips for AI/ML roles and SaaS companies (input as structured text).
+
+Task:
+
+Write a factually accurate, concise, and highly personalized cold email for job inquiry or networking, strictly avoiding any false, exaggerated, or unsupported claims about my experience.
+
+Email should address a specific person at the target company using details from the company data to personalize the message, referencing company pain points, mission, and relevant achievements.
+
+Use a professional tone, open with brief personalization, and highlight only genuine, resume-backed skills or experiences.
+
+Include a single call-to-action: suggest a short introductory call or chat.
+
+List multiple non-attachment contact methods: email, phone, LinkedIn, portfolio.
+
+Ensure clear subject line, value-focused messaging, no excessive self-promotion, and avoid generic language.
+
+Output only the email draft and subject line, with placeholders for name, company, and contact links.
+
+Instructions:
+
+Rigorously check every statement against my resume content. If uncertain about an achievement, qualify it as an interest or motivation, not a claim.
+
+If the resume lacks a specific skill, do NOT invent or imply it.
+
+Never use attachments in the initial email—only offer to share documents if requested.
+
+Follow the structure and tips provided. Use plain, professional English. Do not copy full resume contents.
+
+Format output:
+Subject: [optimized subject line]
+Email body: [professional, resume-backed cold outreach email with placeholders for person and links]

@@ -16,17 +16,23 @@ def insert_summary(company_id, company_name, data):
     conn = sqlite3.connect(DB_FILE)
     cur = conn.cursor()
 
-    # Convert list fields to JSON strings if they exist
-    products = json.dumps(data.get("products", [])) if data.get("products") else None
-    services = json.dumps(data.get("services", [])) if data.get("services") else None
-    customer_segments = json.dumps(data.get("customer_segments", [])) if data.get("customer_segments") else None
-    key_technologies = json.dumps(data.get("key_technologies", [])) if data.get("key_technologies") else None
-    pain_points = json.dumps(data.get("pain_points", [])) if data.get("pain_points") else None
+    def to_json(value):
+        if value is None:
+            return None
+        if isinstance(value, str):
+            return value
+        return json.dumps(value)
+
+    products = to_json(data.get("products"))
+    services = to_json(data.get("services"))
+    customer_segments = to_json(data.get("customer_segments"))
+    key_technologies = to_json(data.get("key_technologies"))
+    pain_points = to_json(data.get("pain_points"))
+    target_market = to_json(data.get("target_market"))
+    unique_value_proposition = to_json(data.get("unique_value_proposition"))
 
     summary_text = data.get("summary")
     department = data.get("department")
-    target_market = data.get("target_market")
-    unique_value_proposition = data.get("unique_value_proposition")
 
     query = """
     INSERT INTO summary (
